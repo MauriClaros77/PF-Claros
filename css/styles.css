@@ -1,0 +1,28 @@
+.color-titulo {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.letra-color {
+    color: white;
+}
+.sin-subrayado {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+.pie-pagina {
+    text-align: center;
+}
+.jugadores {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+}
+.font-body {
+    font-family: sans-serif;
+}
