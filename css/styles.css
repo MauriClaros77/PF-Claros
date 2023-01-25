@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
 .color-titulo {
     background-color: lightblue;
     text-align: center;
@@ -6,13 +13,24 @@
 .letra-color {
     color: white;
 }
-.sin-subrayado {
+.menu ul li a {
     text-decoration: none;
 }
+.menu ul {
+    display: flex;
+    text-align: center;
+}
+.menu
+    
+
 ul {
     list-style: none;
     text-align: center;
     text-decoration: none;
+    
+}
+a {
+    margin-left: 2rem;
 }
 .pie-pagina {
     text-align: center;
@@ -25,4 +43,34 @@ ul {
 }
 .font-body {
     font-family: sans-serif;
+
 }
+
+body{
+    width: 100%
+    ;
+}
+
+/*ESTILOS DE MIS TARJETAS*/
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 15px;
+}
+    
+.card {
+    background-color:lightblue;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 350px;
+}
+
+
+
