@@ -5,6 +5,9 @@ body {
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 62.5%;
+}
 .color-titulo {
     background-color: lightblue;
     text-align: center;
@@ -13,24 +16,32 @@ body {
 .letra-color {
     color: white;
 }
+.menu{
+    grid-template-rows: 1fr;
+}
 .menu ul li a {
     text-decoration: none;
 }
 .menu ul {
     display: flex;
     text-align: center;
-}
-.menu
-    
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 
+}
+
+/*
 ul {
     list-style: none;
     text-align: center;
     text-decoration: none;
     
 }
+*/
 a {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
 }
 .pie-pagina {
     text-align: center;
@@ -54,7 +65,7 @@ body{
 /*ESTILOS DE MIS TARJETAS*/
 .container{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 15px;
     margin: 15px;
 }
@@ -71,6 +82,3 @@ body{
 img {
     height: 350px;
 }
-
-
-
