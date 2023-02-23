@@ -54,11 +54,14 @@ li {
     margin-top: 1.5rem;
     margin-bottom: 5rem;
     font-size: xx-large;
+    border-radius: 120px;
+
+    .foto-campeones:hover {
+        transform: scale;
+        border-radius: 10px;
+    }
 }
-.foto-campeones:hover {
-    transform: scale(1.1);
-    border-radius: 10px;
-}
+
 .inicio{
     font-size:large;
     margin: 3rem;
